@@ -25,7 +25,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: bekovkanat/example3:latest
+          tags: erbolat97/example3:latest
 
       - name: Set up Kubeconfig
         run: |
