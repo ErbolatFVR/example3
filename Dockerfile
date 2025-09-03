@@ -12,4 +12,4 @@ FROM alpine:latest
 WORKDIR /root/
 COPY --from=builder /app/app .
 EXPOSE 9000
-CMD ["./app"]
+CMD ["./app"]
